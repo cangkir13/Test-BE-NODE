@@ -1,0 +1,40 @@
+{
+  "name": "test-be-nodejs",
+  "version": "1.0.0",
+  "description": "test pt dans multi pro",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "production" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cangkir13/Test-BE-NODE.git"
+  },
+  "keywords": [
+    "nodejsBE"
+  ],
+  "author": "cangkir13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cangkir13/Test-BE-NODE/issues"
+  },
+  "homepage": "https://github.com/cangkir13/Test-BE-NODE#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "fs": "0.0.1-security",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  }
+}
